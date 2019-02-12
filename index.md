@@ -7,6 +7,6 @@ title: Home
 
 {% for chapter in site.chapters %}
 
-[{{chapter.title}}]({{chapter.url}})
+[{{chapter.title}}]({{chapter.url | prepend:site.baseurl}})
 
 {% endfor %}
