@@ -3,11 +3,4 @@ collections:
     output: true
     permalink: /:chapter
 
-defaults:
-  - scope:
-      path: ""
-      type: "chapters"
-    values:
-      layout: chapter
-
 baseurl: /arafoo
