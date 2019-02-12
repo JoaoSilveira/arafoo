@@ -7,6 +7,6 @@ title: Home
 
 {% for chapter in site.chapters %}
     <li>
-      <h2><a href="{{ chapter.url }}">{{ post.title }}</a></h2>
+      <h2><a href="{{ chapter.url }}">{{ chapter.title }}</a></h2>
     </li>
   {% endfor %}
