@@ -1,3 +1,4 @@
 collections:
   - chapters
-baseurl: /arafoo/
+
+baseurl: /arafoo
