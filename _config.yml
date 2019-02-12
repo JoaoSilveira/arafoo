@@ -4,3 +4,6 @@ collections:
     permalink: /:name
 
 baseurl: /arafoo
+
+sass:
+  style: compressed
