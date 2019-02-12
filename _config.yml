@@ -1,6 +1,5 @@
 collections:
   chapters:
     output: true
-    permalink: /:chapter
 
 baseurl: /arafoo
