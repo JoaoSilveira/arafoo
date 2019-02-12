@@ -18,6 +18,10 @@ $link-color: #275399;
   padding: 0;
 }
 
+.chapter-content {
+    width: 80%;
+}
+
 html {
   @include box-sizing(border-box);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
