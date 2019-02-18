@@ -18,6 +18,23 @@ description and Image from NovelUpdates
 
 # Chapters
 
+<table>
+    <thead>
+        <tr>
+            <th style="text-align: right">#</th>
+            <th>Title</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for chapter in site.chapters %}
+        <tr>
+            <th style="text-align: right">{{chapter.chapter}}</th>
+            <th><a href="{{chapter.url | prepend:site.baseurl}}">{{chapter.title}}</a></th>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
 | # | Title |
 | ---: | --- |
-{% for chapter in site.chapters %}| {{chapter.chapter}} | [{{chapter.title}}]({{chapter.url | prepend:site.baseurl}}) |{% endfor %}
+|  |  |
