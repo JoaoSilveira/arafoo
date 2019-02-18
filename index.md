@@ -34,7 +34,3 @@ description and Image from NovelUpdates
         {% endfor %}
     </tbody>
 </table>
-
-| # | Title |
-| ---: | --- |
-|  |  |
