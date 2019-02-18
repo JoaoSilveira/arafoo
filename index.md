@@ -28,8 +28,8 @@ description and Image from NovelUpdates
     <tbody>
         {% for chapter in site.chapters %}
         <tr>
-            <th style="text-align: right">{{chapter.chapter}}</th>
-            <th><a href="{{chapter.url | prepend:site.baseurl}}">{{chapter.title}}</a></th>
+            <td style="text-align: right">{{chapter.chapter}}</td>
+            <td><a href="{{chapter.url | prepend:site.baseurl}}">{{chapter.title}}</a></td>
         </tr>
         {% endfor %}
     </tbody>

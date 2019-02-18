@@ -151,16 +151,12 @@ nav {
     color: darken($light, $color-shift);
     display: inline-block;
     padding: .5rem .25rem;
+    border-bottom: 3px solid $dark;
     
     &:hover {
       color: $light;
       text-decoration: none;
-      border-bottom: 3px solid darken($light, $color-shift);
-    }
-
-    &.active {
-      color: $light;
-      border-bottom: 3px solid $light;
+      border-color: darken($light, $color-shift);
     }
   }
 }
