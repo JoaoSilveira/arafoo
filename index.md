@@ -16,7 +16,7 @@ Let his isekai adventure begin.
 
 description and Image from NovelUpdates
 
-# Chapters
+## Chapters
 
 <table>
     <thead>
