@@ -139,14 +139,6 @@ nav {
     display: table;
   }
 
-  a:nth-child(2) {
-    float: left;
-  }
-
-  a:nth-child(3) {
-    float: right;
-  }
-
   a {
     color: darken($light, $color-shift);
     display: inline-block;

@@ -3,12 +3,12 @@
     {% if site.relativeurl != site.baseurl%}
 
     {% if page.previous %}
-    <a href="{{page.previous.url}}"><span class="left-arrow"></span></a>
+    <a style="float: left" href="{{page.previous.url}}"><span class="left-arrow"></span></a>
     {% endif %}
     
     
     {% if page.next %}
-    <a href="{{page.next.url | prepend:site.baseurl}}"><span class="right-arrow"></span></a>
+    <a style="float: right" href="{{page.next.url | prepend:site.baseurl}}"><span class="right-arrow"></span></a>
     {% endif %}
 
     {% endif %}
