@@ -1,9 +1,10 @@
 <nav>
     <a href="{{site.baseurl}}">Home</a>
+
     {% if site.relativeurl != site.baseurl%}
 
     {% if page.previous %}
-    <a style="float: left" href="{{page.previous.url}}"><span class="left-arrow"></span></a>
+    <a style="float: left" href="{{page.previous.url | prepend:site.baseurl}}"><span class="left-arrow"></span></a>
     {% endif %}
     
     
