@@ -20,6 +20,4 @@ description and Image from NovelUpdates
 
 | # | Title |
 | ---: | --- |
-{% for chapter in site.chapters %}
-| {{chapter.chapter}} | [{{chapter.title}}]({{chapter.url | prepend:site.baseurl}}) |
-{% endfor %}
+{% for chapter in site.chapters %}| {{chapter.chapter}} | [{{chapter.title}}]({{chapter.url | prepend:site.baseurl}}) |{% endfor %}
