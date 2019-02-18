@@ -11,6 +11,11 @@ sass:
 defaults:
   - scope:
       path: ""
+      type: "chapters"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
       type: "pages"
     values:
       layout: "default"
