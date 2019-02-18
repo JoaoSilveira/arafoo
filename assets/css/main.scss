@@ -131,6 +131,21 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
+  text-align: center;
+
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  a:nth-child(2) {
+    float: left;
+  }
+
+  a:nth-child(3) {
+    float: right;
+  }
 
   a {
     color: darken($light, $color-shift);
@@ -154,6 +169,31 @@ ul, ol {
   padding-left: .5rem;
   margin: 1.5rem 0;
   list-style-position: inside;
+}
+
+%arrow {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-color: $light;
+  border-left: 3px solid;
+  border-bottom: 3px solid;
+}
+
+.left-arrow {
+  @extend %arrow;
+
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Safari */
+  transform: rotate(45deg);
+}
+
+.right-arrow {
+  @extend %arrow;
+
+  -ms-transform: rotate(225deg); /* IE 9 */
+  -webkit-transform: rotate(225deg); /* Safari */
+  transform: rotate(225deg);
 }
 
 .chapter-content {

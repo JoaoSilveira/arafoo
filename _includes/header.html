@@ -1,0 +1,15 @@
+<nav>
+    <a href="{{site.baseurl}}">Home</a>
+    {% if site.relativeurl != site.baseurl%}
+    
+    {% if page.previous %}
+    <a href="{{page.previous}}"><span class="left-arrow"></span></a>
+    {% endif %}
+    
+    
+    {% if page.next %}
+    <a href="{{page.next}}"><span class="right-arrow"></span></a>
+    {% endif %}
+
+    {% endif %}
+</nav>
