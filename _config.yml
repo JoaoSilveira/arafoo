@@ -7,3 +7,15 @@ baseurl: /arafoo
 
 sass:
   style: compressed
+
+defaults:
+  - scope:
+      path: ""
+      type: "chapters"
+    values:
+      layout: "chapter"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"

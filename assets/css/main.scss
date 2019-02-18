@@ -157,10 +157,10 @@ ul, ol {
 }
 
 .chapter-content {
-  padding: 0 1rem;
+  padding: 0 1rem 25%;
 
   @media (min-width: $minw) {
-    padding: 0;
+    padding: 0 0 25%;
     width: 80%;
     margin: 0 auto;
   }
