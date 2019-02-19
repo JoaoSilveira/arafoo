@@ -1,3 +1,7 @@
+# Glossary
+
+I'm using it as a word bank for personal reference. Probably I'll never include it in the page.
+
 | Original | Phonemes | Romaji | Meaning |
 | -------- | -------- | ------ | ------- |
 | ソード・アンド・ソーサリス | | Sōdo Ando Sōsarisu | Sword And Sorcery |
