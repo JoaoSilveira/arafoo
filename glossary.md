@@ -20,6 +20,8 @@ I'm using it as a word bank for personal reference. Probably I'll never include 
 | 魔法王国ソリステア | まほうおうこくソリステア | Mahō Ōkoku Sorisutea | Sorcery Kingdom Solistea |
 | イストール魔法学園 | イストールまほうがくえん | Isutōru Mahō Gakuen | Istal Sorcery Academy |
 | サントール | | Santōru | Santol |
+| オーラス大河 | オーラスたいが | Ōrasu taiga | Auras Great River |
+| 難攻不落の要塞都市 | なんこうふらくのようさいとし | Nankōfuraku no Yōsai Toshi | Impregnable Fortress City |
 
 > <sup>1</sup>: I'm not sure about the reading, I suck at kanji
 
@@ -65,6 +67,8 @@ I'm using it as a word bank for personal reference. Probably I'll never include 
 ## ETC
 | Original | Phonemes | Romaji | Meaning |
 | -------- | -------- | ------ | ------- |
+| 魔石 | ませき | Maseki | Magic Stone |
 | ゴル | | Goru | Gol, the world's currency |
 | 竜殺し | りゅうごろし | Ryūgoroshi | Dragon Slayer |
 | 空の悪魔 | そらのあくま | Sora no Akuma | Sky Demon |
+| 魔導具 | まどうぐ | Madōgu | Magical Tool |
